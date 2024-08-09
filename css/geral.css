@@ -309,7 +309,7 @@ body {
   content: "";
   width: 8px;
   height: 8px;
-  background: #E54;
+  background: #e54;
   border-radius: 50px;
   margin-left: 4px;
   border: 2px solid #000;
@@ -317,4 +317,11 @@ body {
 
 [data-semana].aberto::after {
   background: #3f4;
+}
+
+.btc-preco {
+  background: #ef4;
+  padding: 0.2rem 0.5rem;
+  font-weight: bold;
+  border-radius: 2px;
 }
