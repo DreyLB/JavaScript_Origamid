@@ -1,6 +1,8 @@
-export default function initAnimaNumeros() {
-  function animaNumeros() {
-    const numeros = document.querySelectorAll('[data-numero]');
+export default class AnimaNumeros {
+  constructor(numero){
+    this.numeros = document.querySelectorAll(numero);
+  }
+  animaNumeros() {
 
     numeros.forEach((numero) => {
       const total = +numero.innerText;
